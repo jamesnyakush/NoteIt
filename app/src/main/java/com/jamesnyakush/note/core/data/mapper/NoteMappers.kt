@@ -24,6 +24,8 @@ fun NoteItem.toNoteEntityForDelete(
     )
 }
 
+
+
 fun NoteEntity.toNoteItem(): NoteItem {
     return NoteItem(
         title = title,
